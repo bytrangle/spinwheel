@@ -1,0 +1,7 @@
+spec:
+  name: spinwheel
+  static_sites:
+    - git:
+        branch: main
+        repo_clone_url: https://github.com/bytrangle/spinwheel.git
+      name: spinwheel
