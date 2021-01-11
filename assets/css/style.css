@@ -100,6 +100,26 @@ button {
     width: 60px;
   }
 }
+.header .game-title {
+  height: 100%;
+  width: 40px;
+  position: relative;
+}
+.game-title__wrapper {
+  position: absolute;
+  min-width: 100vh;
+  right: 7vh;
+  top: 0px;
+  transform-origin: top right;
+  transform: rotate(-90deg);
+  display: flex;
+  justify-content: center;
+}
+.game-title__text {
+  font-size: 5vh;
+  font-weight: 300;
+  margin-bottom: 0;
+}
 .header .info__open-btn {
   position: relative;
   width: calc(var(--spacing__base_unit) * 3);
