@@ -271,7 +271,7 @@ button {
   width: 62vmin;
   height: 62vmin;
   position: relative;
-  background: var(--grey6);
+  background: var(--color__standard__background);
 }
 .pie.spinner,
 .pie.filler {
